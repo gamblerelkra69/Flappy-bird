@@ -1,0 +1,32 @@
+.game{
+	width:570px;
+	height:640px;
+	border:2px solid #e1e1e1;
+	position:absolute;
+}
+.sky{
+	background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/089918d8-99ff-45de-a084-3fe85d0e3fcc/dg34rsu-29a3d144-dc3f-473e-a949-f73a4ba1ef7c.png/v1/fill/w_608,h_457,q_80,strp/flappy_bird_backdrop_by_lenaxux_dg34rsu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDU3IiwicGF0aCI6IlwvZlwvMDg5OTE4ZDgtOTlmZi00NWRlLWEwODQtM2ZlODVkMGUzZmNjXC9kZzM0cnN1LTI5YTNkMTQ0LWRjM2YtNDczZS1hOTQ5LWY3M2E0YmExZWY3Yy5wbmciLCJ3aWR0aCI6Ijw9NjA4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._FI7nnUO3ZCIz23z4_juaIbbiEa_LQd1lX6MK-0iUEE');
+	background-size:cover;
+	width:570px;
+	height:540px;
+	position:absolute;
+}
+.ground{
+	width:570px;
+	height:100px;
+	position:absolute;
+	top:540px;
+	z-index:5;
+}
+.sky .flappy{
+	width:60px;
+	height:45px;
+	background-image:url('https://i.ytimg.com/vi/yGSaVHk5RaY/maxresdefault.jpg');
+	position:absolute;
+}
+.block{
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrdUhqwM_JKKK2yacvaIJ0RpbrPQKLP3CuQ&s');
+	width:60px;
+	height:300px;
+	position:absolute;
+}
